@@ -1,0 +1,9 @@
+.content {
+  max-width: 600px;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
