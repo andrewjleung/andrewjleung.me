@@ -2,9 +2,10 @@
 
 My personal website covering both my dev and music work.
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 ## Future Work
 
-- [ ] Go beyond static HTML and CSS if the end is justified
 - [ ] Further tailor and customize the site theme
 - [ ] Add a blog section
 - [ ] Add a projects section
