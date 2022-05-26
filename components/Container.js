@@ -28,7 +28,7 @@ const NavBar = () => (
       <NavItem title="Home" href="/" />
     </div>
     <div className="">
-      {/* <NavItem title="Blog" href="/blog" /> */}
+      <NavItem title="Blog" href="/blog" />
       {/* <NavItem title="Projects" href="/projects" />
       <NavItem title="Music" href="/music" /> */}
     </div>
