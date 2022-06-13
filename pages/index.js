@@ -4,7 +4,7 @@ import Container from "../components/Container";
 export default function Home() {
   return (
     <Container>
-      <div id="introduction" className="flex flex-col items-center prose pb-10">
+      <div id="introduction" className="flex flex-col items-center ">
         <Image
           className="rounded-full"
           width="176"
@@ -14,7 +14,7 @@ export default function Home() {
         />
         <h1 className="pt-2">Howdy!</h1>
       </div>
-      <div id="content" className="pt-1 text-2xl prose">
+      <div id="content" className="text-2xl">
         <p>
           I&apos;m <strong className="hover:">Andrew Leung</strong>, a software
           engineer focused on delivering intuitive, readable, and elegant code

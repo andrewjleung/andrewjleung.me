@@ -51,7 +51,7 @@ export default function Container({ children }) {
       </Head>
       <main>
         <NavBar />
-        <div className="container mx-auto max-w-xl mb-16 flex flex-col items-center">
+        <div className="container mx-auto max-w-xl mb-16 flex flex-col prose">
           {children}
         </div>
       </main>
