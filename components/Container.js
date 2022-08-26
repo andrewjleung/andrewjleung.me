@@ -13,7 +13,7 @@ const NavItem = ({ title, href }) => {
       <a
         className={cn(
           isSelected ? "font-semibold" : "",
-          "px-4 py-2 rounded-lg transition ease-out hover:bg-gray-100 duration-200"
+          "px-4 py-2 rounded-lg transition ease-out hover:shadow-lg duration-200 active:shadow-none"
         )}
       >
         {title}
@@ -37,7 +37,7 @@ const NavBar = () => (
 
 export default function Container({ children }) {
   return (
-    <div className={styles.container}>
+    <div className={cn(styles.container, "")}>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
