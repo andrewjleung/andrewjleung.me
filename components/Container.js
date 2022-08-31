@@ -1,39 +1,7 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import cn from "classnames";
-
-const NavItem = ({ title, href }) => {
-  const router = useRouter();
-  const isSelected = href === router.asPath;
-
-  return (
-    <Link href={href}>
-      <a
-        className={cn(
-          isSelected ? "font-semibold" : "",
-          "px-4 py-2 rounded-lg transition ease-out hover:shadow-lg duration-200 active:shadow-none"
-        )}
-      >
-        {title}
-      </a>
-    </Link>
-  );
-};
-
-const NavBar = () => (
-  <div className="flex flex-row w-full justify-between pt-5 pb-16">
-    <div>
-      <NavItem title="Home" href="/" />
-    </div>
-    <div className="">
-      <NavItem title="Blog" href="/blog" />
-      {/* <NavItem title="Projects" href="/projects" />
-      <NavItem title="Music" href="/music" /> */}
-    </div>
-  </div>
-);
+import NavBar from "./NavBar";
 
 export default function Container({ children }) {
   return (
