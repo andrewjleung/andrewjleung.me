@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Container from "../../components/Container";
 import ProjectItem from "../../components/ProjectItem";
 
@@ -10,10 +9,18 @@ export default function Blog() {
         <ProjectItem
           imageSrc="/fantano.jpg"
           imageAlt="Anthony Fantano"
+          href="https://github.com/andrewjleung/fantano-reviews"
           title="TND Reviews"
           description="Generating/live-updating a dataset containing all of Anthony
             Fantano's scored music reviews using the YouTube Data API."
         />
+        <ProjectItem
+          imageSrc="/raudi.png"
+          imageAlt="Raudi"
+          href="https://raudi.xyz"
+          title="Raudi"
+          description="Get random sounds for instant inspiration, made for audio creatives prone to overthinking. Built off of the Freesound API."
+        ></ProjectItem>
       </div>
     </Container>
   );

@@ -11,6 +11,8 @@ export default function Home() {
           height="176"
           src="/profile.png"
           alt="Andrew Leung"
+          priority={true}
+          quality={100}
         />
         <h1 className="pt-2">Howdy!</h1>
       </div>

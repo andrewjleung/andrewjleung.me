@@ -12,7 +12,7 @@ export default function NavItem({ title, href }) {
         <a
           className={cn(
             isSelected ? "font-semibold" : "",
-            "px-4 py-2 rounded-lg transition ease-out hover:shadow-lg duration-200 active:shadow-none"
+            "px-4 py-2 rounded-lg transition ease-out duration-200 hover:bg-gray-100"
           )}
         >
           {title}
