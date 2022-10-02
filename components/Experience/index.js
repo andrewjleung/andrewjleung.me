@@ -1,3 +1,3 @@
 export default function Experiences({ children }) {
-  return <ul className="">{children}</ul>;
+  return <div className="">{children}</div>;
 }
