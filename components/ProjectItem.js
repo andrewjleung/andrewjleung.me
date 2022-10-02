@@ -9,7 +9,7 @@ export default function ProjectItem({
 }) {
   return (
     <a
-      className="px-6 py-4 no-underline rounded-xl duration-200 ease-out flex flex-col sm:flex-row items-center gap-5 hover:scale-105 hover:bg-gray-100 active:scale-100"
+      className="px-6 py-4 no-underline rounded-xl duration-100 ease-out flex flex-col sm:flex-row items-center gap-5 hover:scale-105 hover:bg-gray-100 active:scale-100"
       href={href}
     >
       <Image

@@ -16,7 +16,7 @@ export default function Home() {
         />
         <h1 className="pt-2">Howdy!</h1>
       </div>
-      <div id="content" className="text-2xl">
+      <div id="content" className="text-xl">
         <p>
           I&apos;m <strong className="hover:">Andrew Leung</strong>, a software
           engineer focused on delivering intuitive, readable, and elegant code

@@ -5,8 +5,9 @@ export default function NavBar() {
     <div className="flex flex-row w-full justify-between pt-5 pb-16">
       <NavItem title="Home" href="/" />
       <div className="grow" />
-      <NavItem title="Blog" href="/blog" />
+      <NavItem title="Experience" href="/experience" />
       <NavItem title="Projects" href="/projects" />
+      <NavItem title="Blog" href="/blog" />
     </div>
   );
 }
