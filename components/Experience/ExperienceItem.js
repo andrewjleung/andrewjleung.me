@@ -11,7 +11,7 @@ export default function ExperienceItem({
   children,
 }) {
   return (
-    <div className="px-6 py-4 mb-2 rounded-xl duration-100 ease-out hover:scale-105 hover:bg-gray-100 active:scale-100">
+    <div className="px-6 py-4 mb-2 rounded-xl duration-100 ease-out hover:scale-105 hover:bg-gray-100">
       <div className="sm:grid sm:grid-cols-2">
         <div className="text-xl font-semibold ">{name}</div>
         <DateRange
