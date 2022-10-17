@@ -17,7 +17,7 @@ export default function Blog() {
         <ProjectItem
           imageSrc="/raudi.png"
           imageAlt="Raudi"
-          href="https://raudi.xyz"
+          href="https://raudi.up.railway.app/"
           title="Raudi"
           description="Get random sounds for instant inspiration, made for audio creatives prone to overthinking. Built off of the Freesound API."
         ></ProjectItem>
