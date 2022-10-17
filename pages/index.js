@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Container from "../components/Container";
+import GitHub from "../public/github.svg";
+import LinkedIn from "../public/linkedin.svg";
 
 export default function Home() {
   return (
@@ -34,6 +36,14 @@ export default function Home() {
           </a>
           . Take a listen!
         </p>
+      </div>
+      <div className="flex flex-row justify-center items-end gap-3 mt-4">
+        <a href="https://github.com/andrewjleung">
+          <GitHub height="25" className="cursor-pointer" />
+        </a>
+        <a href="https://www.linkedin.com/in/andrewjleung-/">
+          <LinkedIn height="25" className="cursor-pointer" />
+        </a>
       </div>
     </Container>
   );
