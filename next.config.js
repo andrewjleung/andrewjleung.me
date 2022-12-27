@@ -1,3 +1,5 @@
+// @ts-check
+
 const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
   options: {
@@ -8,7 +10,10 @@ const withMDX = require("@next/mdx")({
   },
 });
 
-module.exports = withMDX({
+/**
+ * @type {import('next').NextConfig}
+ **/
+const nextConfig = {
   reactStrictMode: true,
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
@@ -22,4 +27,6 @@ module.exports = withMDX({
     return config;
   },
   swcMinify: true,
-});
+};
+
+module.exports = withMDX(nextConfig);
