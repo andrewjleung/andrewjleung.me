@@ -8,15 +8,15 @@ export default function NavItem({ title, href }) {
 
   return (
     <div>
-      <Link href={href}>
-        <a
-          className={cn(
-            isSelected ? "font-semibold" : "",
-            "px-4 py-2 rounded-lg transition ease-in-out duration-100 hover:bg-gray-100"
-          )}
-        >
-          {title}
-        </a>
+      <Link
+        href={href}
+        className={cn(
+          isSelected ? "font-semibold" : "",
+          "px-4 py-2 rounded-lg transition ease-in-out duration-100 hover:bg-gray-100"
+        )}>
+
+        {title}
+
       </Link>
     </div>
   );
