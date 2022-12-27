@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Container from "../components/Container";
 import GitHub from "../public/github.svg";
 import LinkedIn from "../public/linkedin.svg";
