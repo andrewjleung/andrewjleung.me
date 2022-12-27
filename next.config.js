@@ -21,4 +21,5 @@ module.exports = withMDX({
 
     return config;
   },
+  swcMinify: true,
 });
