@@ -36,6 +36,11 @@ export default function Home() {
           </a>
           . Take a listen!
         </p>
+        <p>
+          P.S. I am currently in the process of redesigning my website! You can
+          check in with the current progress{" "}
+          <a href="https://andrewjleung-t3.vercel.app">here</a>.
+        </p>
       </div>
       <div className="flex flex-row justify-center items-end gap-3 mt-4">
         <a href="https://github.com/andrewjleung">
