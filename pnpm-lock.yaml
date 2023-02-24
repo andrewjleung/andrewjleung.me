@@ -8,6 +8,7 @@ specifiers:
   '@tailwindcss/typography': ^0.5.2
   '@types/node': ^18.11.9
   '@types/react': ^18.0.25
+  '@vercel/analytics': ^0.1.10
   autoprefixer: ^10.4.7
   classnames: ^2.3.1
   eslint: 8.16.0
@@ -23,6 +24,7 @@ dependencies:
   '@mdx-js/loader': 2.2.1
   '@mdx-js/react': 2.2.1_react@18.2.0
   '@next/mdx': 12.3.4_vvg67iglxhejglpl7nsv3pjzui
+  '@vercel/analytics': 0.1.10_react@18.2.0
   classnames: 2.3.2
   next: 13.1.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -1913,6 +1915,14 @@ packages:
       '@typescript-eslint/types': 5.47.1
       eslint-visitor-keys: 3.3.0
     dev: true
+
+  /@vercel/analytics/0.1.10_react@18.2.0:
+    resolution: {integrity: sha512-jjJ8GzcPnQp0cMxpfYoUycMRBtDiaIeyVjZPiEPe99Dj1PdjMzAFYEASiV/hpNsXHkpcNYCveDFh6jnmh0YSDQ==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /acorn-jsx/5.3.2_acorn@8.8.1:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
